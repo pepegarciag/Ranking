@@ -12,13 +12,13 @@ class ScoresController extends Controller
 {
     public function index()
     {
-        // Hacer un scope para el ranking.
         return ScoreResource::collection(Score::ranking()->get());
     }
 
     public function store(CreateScore $request)
     {
         $score = Score::create($request->validated());
+
         return new ScoreResource($score);
     }
 }

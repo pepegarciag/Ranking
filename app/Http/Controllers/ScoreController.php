@@ -23,6 +23,7 @@ class ScoreController extends Controller
     public function store(CreateScore $request)
     {
         Score::create($request->validated());
+
         return redirect()->route('home');
     }
 }
