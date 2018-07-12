@@ -32,7 +32,7 @@
         </div>
 
         <div class="mb-6 w-full flex items-center justify-center">
-          <button class="w-24 mt-8 bg-purple hover:bg-purple-dark text-white font-bold py-2 px-4 rounded" type="submit">
+          <button class="w-24 mt-8 bg-teal hover:bg-teal-dark text-white font-bold py-2 px-4 rounded" type="submit">
             Add
           </button>
         </div>
